@@ -12,8 +12,8 @@ env:
     # - PLATFORMIO_CI_SRC=test PLATFORMIO_CI_EXTRA_ARGS="--project-conf=platformio.ini"
 
 install:
-    - pip install --user -U platformio
-    - platformio update
+    - python3 pip install --user -U platformio
+    - python3 platformio update
 
 script:
-    - platformio ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
+    - python3 platformio ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
