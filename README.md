@@ -3,11 +3,11 @@
     <img alt="logo-chocadeira" class="avatar rounded-2" height="60" src="/car-reversing.webp" width="60">
 </p>
 <p align="center">
-    <a href="https://travis-ci.com/lnoering/reverse-engine-side">
-        <img src="https://travis-ci.com/lnoering/reverse-engine-side.svg?branch=master" alt="Build Status">
+    <a href="https://travis-ci.org/lnoering/reverse-engine-side">
+        <img src="https://travis-ci.org/lnoering/reverse-engine-side.svg?branch=master" alt="Build Status">
     </a>
 </p>
-
+https://travis-ci.com/lnoering/reverse-engine-side.svg?branch=
 
 ### Plataforma/Platform
     - Arduino Uno
