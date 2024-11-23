@@ -7,7 +7,6 @@
         <img src="https://travis-ci.org/lnoering/reverse-engine-side.svg?branch=master" alt="Build Status">
     </a>
 </p>
-https://travis-ci.com/lnoering/reverse-engine-side.svg?branch=
 
 ### Plataforma/Platform
     - Arduino Uno
