@@ -1,19 +1,26 @@
-language: c
-python:
-    - "3.6"
 
-sudo: false
+os: linux
+
+dist: focal
+
+language: c
+
+python:
+    - "3.9"
+
+# sudo: false
+
 cache:
     directories:
         - "~/.platformio"
+        - $HOME/.cache/pip
 
 env:
     - PLATFORMIO_CI_SRC=src PLATFORMIO_CI_EXTRA_ARGS="--project-conf=platformio.ini"
-    # - PLATFORMIO_CI_SRC=test PLATFORMIO_CI_EXTRA_ARGS="--project-conf=platformio.ini"
 
 install:
     - pip3 install --user -U platformio
-    - python3 platformio update
+    - pio update
 
 script:
-    - python3 platformio ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
+    - platformio ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
